@@ -1,0 +1,90 @@
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class NBAScraper {
+    public static void main(String[] args) {
+        String baseURL = "https://www.basketball-reference.com";
+        String initialURL = "https://www.basketball-reference.com/boxscores/?month=1&day=1&year=2025"; // Départ spécifique
+        String outputFile = "nba_summary_data.csv";
+
+        try (FileWriter writer = new FileWriter(outputFile)) {
+            // Écrire les en-têtes dans le fichier CSV
+            writer.write("Date,Match,Victoire,Défaite,Score Gagnant,Score Perdant,Meilleur Joueur (Points),Points,Meilleur Joueur (Rebonds),Rebonds\n");
+
+            String currentURL = initialURL;
+
+            // Parcourir les pages jusqu'à ce qu'il n'y ait plus de bouton "next"
+            while (currentURL != null) {
+                System.out.println("Scraping la page : " + currentURL);
+                currentURL = scrapePage(currentURL, baseURL, writer);
+            }
+        } catch (IOException e) {
+            System.err.println("Erreur lors de la création du fichier CSV : " + e.getMessage());
+        }
+    }
+
+    private static String scrapePage(String url, String baseURL, FileWriter writer) {
+        try {
+            Document doc = Jsoup.connect(url).get();
+
+            // Récupérer la date affichée sur la page
+            String pageDate = doc.select("div.section_heading span.button2.current").text();
+
+            // Sélectionner les blocs de matchs
+            Elements games = doc.select("div.game_summary.expanded.nohover");
+
+            for (Element game : games) {
+                // Récupérer les équipes et scores
+                Element winnerRow = game.selectFirst("tr.winner");
+                Element loserRow = game.selectFirst("tr.loser");
+
+                if (winnerRow != null && loserRow != null) {
+                    String winningTeam = winnerRow.selectFirst("td a").text();
+                    String losingTeam = loserRow.selectFirst("td a").text();
+                    String winningScore = winnerRow.select("td.right").first().text();
+                    String losingScore = loserRow.select("td.right").first().text();
+
+                    // Récupérer les statistiques des meilleurs joueurs (points et rebonds)
+                    Element statsTable = game.selectFirst("table.stats");
+                    String topScorer = "";
+                    String topScorerPoints = "";
+                    String topRebounder = "";
+                    String topRebounds = "";
+
+                    if (statsTable != null) {
+                        Elements rows = statsTable.select("tr");
+
+                        for (Element row : rows) {
+                            Elements stats = row.select("td");
+                            if (row.text().contains("PTS")) {
+                                topScorer = stats.get(0).text();
+                                topScorerPoints = stats.get(1).text();
+                            } else if (row.text().contains("TRB")) {
+                                topRebounder = stats.get(0).text();
+                                topRebounds = stats.get(1).text();
+                            }
+                        }
+                    }
+
+                    // Écrire les données dans le fichier CSV
+                    writer.write(String.format("%s,%s vs %s,%s,%s,%s,%s,%s,%s,%s\n",
+                            pageDate, winningTeam, losingTeam, winningTeam, losingTeam, winningScore, losingScore, topScorer, topScorerPoints, topRebounder, topRebounds));
+                }
+            }
+
+            // Récupérer le lien "next" pour continuer le scraping
+            Element nextButton = doc.selectFirst("div.prevnext a.button2.next");
+            return (nextButton != null) ? baseURL + nextButton.attr("href") : null;
+
+        } catch (IOException e) {
+            System.err.println("Erreur lors de la récupération de l'URL : " + url);
+            e.printStackTrace();
+            return null;
+        }
+    }
+}
