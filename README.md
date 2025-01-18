@@ -107,8 +107,6 @@ Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier e
 
 ## **Contributeurs**
 - Développeur : **[Tommy RAHITA Andrew DESVALCY]**
-- Contact : **[votre.email@example.com]**
-
 ---
 
 ## **Questions et Support**
