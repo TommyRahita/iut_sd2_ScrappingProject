@@ -1,3 +1,4 @@
+package scraping;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -10,19 +11,23 @@ public class NBAScraper {
     public static void main(String[] args) {
         String baseURL = "https://www.basketball-reference.com";
         String initialURL = "https://www.basketball-reference.com/boxscores/?month=1&day=1&year=2025"; // Départ spécifique
-        String outputFile = "nba_summary_data.csv";
+        String outputFile = "scraped_data.csv";
 
         try (FileWriter writer = new FileWriter(outputFile)) {
             // Écrire les en-têtes dans le fichier CSV
             writer.write("Date,Match,Victoire,Défaite,Score Gagnant,Score Perdant,Meilleur Joueur (Points),Points,Meilleur Joueur (Rebonds),Rebonds\n");
 
             String currentURL = initialURL;
+            int maxDates = 10; // Limite à 10 dates
+            int dateCount = 0; // Compteur de dates analysées
 
-            // Parcourir les pages jusqu'à ce qu'il n'y ait plus de bouton "next"
-            while (currentURL != null) {
+            // Parcourir les pages jusqu'à ce qu'il n'y ait plus de bouton "next" ou que le nombre de dates soit atteint
+            while (currentURL != null && dateCount < maxDates) {
                 System.out.println("Scraping la page : " + currentURL);
                 currentURL = scrapePage(currentURL, baseURL, writer);
+                dateCount++; // Incrémenter le compteur de dates
             }
+
         } catch (IOException e) {
             System.err.println("Erreur lors de la création du fichier CSV : " + e.getMessage());
         }
@@ -30,10 +35,27 @@ public class NBAScraper {
 
     private static String scrapePage(String url, String baseURL, FileWriter writer) {
         try {
-            Document doc = Jsoup.connect(url).get();
+            // Extraire la date depuis l'URL
+            String[] urlParts = url.split("\\?|&|=");
+            String year = "", month = "", day = "";
 
-            // Récupérer la date affichée sur la page
-            String pageDate = doc.select("div.section_heading span.button2.current").text();
+            for (int i = 0; i < urlParts.length; i++) {
+                if (urlParts[i].equals("year")) {
+                    year = urlParts[i + 1];
+                } else if (urlParts[i].equals("month")) {
+                    month = urlParts[i + 1];
+                } else if (urlParts[i].equals("day")) {
+                    day = urlParts[i + 1];
+                }
+            }
+
+            String pageDate = String.format("%s-%s-%s", year, month, day);
+
+            // Charger la page
+            Document doc = Jsoup.connect(url)
+                    .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+                    .timeout(10000)
+                    .get();
 
             // Sélectionner les blocs de matchs
             Elements games = doc.select("div.game_summary.expanded.nohover");
@@ -60,16 +82,19 @@ public class NBAScraper {
                         Elements rows = statsTable.select("tr");
 
                         for (Element row : rows) {
-                            Elements stats = row.select("td");
-                            if (row.text().contains("PTS")) {
-                                topScorer = stats.get(0).text();
-                                topScorerPoints = stats.get(1).text();
-                            } else if (row.text().contains("TRB")) {
-                                topRebounder = stats.get(0).text();
-                                topRebounds = stats.get(1).text();
+                            if (row.select("strong").text().equals("PTS")) { // Vérifie si la ligne contient les points
+                                topScorer = row.select("a").text(); // Nom du joueur
+                                topScorerPoints = row.select("td.right").text(); // Points
+                            } else if (row.select("strong").text().equals("TRB")) { // Vérifie si la ligne contient les rebonds
+                                topRebounder = row.select("a").text(); // Nom du joueur
+                                topRebounds = row.select("td.right").text(); // Rebonds
                             }
                         }
                     }
+
+                    // Validation pour éviter les champs vides
+                    topScorerPoints = topScorerPoints.isEmpty() ? "0" : topScorerPoints;
+                    topRebounds = topRebounds.isEmpty() ? "0" : topRebounds;
 
                     // Écrire les données dans le fichier CSV
                     writer.write(String.format("%s,%s vs %s,%s,%s,%s,%s,%s,%s,%s\n",

@@ -1,376 +1,77 @@
-Site,Page,Titre,Prix,Auteur,Note,Nombre de Notes
-Decitre,1,"Sur la dalle","10,00 €","Fred Vargas",3,5,4
-Decitre,1,"Rouge Karma","159,99 €","Jean-Christophe Grangé",5,0,1
-Decitre,1,"L'Ile de Yule","8,90 €","Johana Gustawsson",4,5,3
-Decitre,1,"L'étoile du désert","10,40 €","Michael Connelly",5,0,1
-Decitre,1,"L'Enigme de la Stuga","8,90 €","Camilla Grebe",5,0,1
-Decitre,1,"Le bureau des affaires occultes Tome 2 Le fantôme du vicaire","9,70 €","Eric Fouassier",4,0,1
-Decitre,1,"Le bureau des affaires occultes Tome 1","9,90 €","Eric Fouassier",3,5,3
-Decitre,1,"Reykjavík","9,40 €","Ragnar Jónasson, Katrín Jakobsdóttir",4,0,1
-Decitre,1,"Le Pire des Noëls","9,20 €","Collectif",5,0,1
-Decitre,1,"A qui la faute","8,95 €","Ragnar Jónasson",5,0,3
-Decitre,1,"A qui la faute","7,49 €","Ragnar Jónasson",3,5,2
-Decitre,1,"Le roi et l'horloger","8,95 €","Arnaldur Indridason",4,0,8
-Decitre,1,"La saga du soleil noir Tome 6 Le Graal du diable","15,99 €","Eric Giacometti, Jacques Ravenne",5,0,1
-Decitre,1,"La Lisière","8,95 €","Niko Tackian",0,0,0
-Decitre,1,"Les enchanteurs","9,90 €","James Ellroy",0,0,0
-Decitre,1,"Les Enquêtes du Département V Tome 9 Sel","8,70 €","Jussi Adler-Olsen",0,0,0
-Decitre,1,"Les promises","19,99 €","Jean-Christophe Grangé",0,0,0
-Decitre,1,"Rétiaire(s)","9,90 €","DOA",0,0,0
-Decitre,1,"Rétiaire(s)","10,90 €","DOA",0,0,0
-Decitre,1,"Les Ombres de la vallée","9,50 €","Viveca Sten",0,0,0
-Decitre,1,"Une saison pour les ombres","9,49 €","R. J. Ellory",0,0,0
-Decitre,1,"Les sept morts d'Evelyn Hardcastle","9,90 €","Stuart Turton",0,0,0
-Decitre,1,"La chambre du fils. Une enquête de William Wisting","9,70 €","Jorn Lier Horst",0,0,0
-Decitre,1,"La chambre du fils. Une enquête de William Wisting","9,60 €","Jorn Lier Horst",0,0,0
-Decitre,1,"Le Chat du bibliothécaire Tome 1 Succès mortel","10,00 €","Miranda James",0,0,0
-Decitre,1,"Son nom sur la liste","9,99 €","John Grisham",0,0,0
-Decitre,1,"Une écharpe dans la neige","7,50 €","Viveca Sten",0,0,0
-Decitre,1,"On ne meurt que deux fois. Et autres nouvelles","9,70 €","Lisa Gardner",0,0,0
-Decitre,1,"Les ténèbres et la nuit","9,70 €","Michael Connelly",0,0,0
-Decitre,1,"Les garçons qui brûlent","7,90 €","Eva Björg Aegisdóttir",0,0,0
-Decitre,2,"Les garçons qui brûlent","10,00 €","Eva Björg Aegisdóttir",5,0,1
-Decitre,2,"L'Ombre","159,99 €","Franck Ollivier",1,0,1
-Decitre,2,"Leur domaine","15,99 €","Jo Nesbo",5,0,2
-Decitre,2,"Leur domaine","9,90 €","Jo Nesbo",5,0,2
-Decitre,2,"Les filles qui mentent","10,50 €","Eva Björg Aegisdóttir",4,0,1
-Decitre,2,"Les filles qui mentent","9,99 €","Eva Björg Aegisdóttir",3,0,1
-Decitre,2,"Petite sale","9,30 €","Louise Mey",4,0,1
-Decitre,2,"Qui après nous vivrez","8,99 €","Hervé Le Corre",4,0,1
-Decitre,2,"Darwyne","9,30 €","Colin Niel",4,0,1
-Decitre,2,"Le chant du silence","15,99 €","Jérôme Loubry",4,0,1
-Decitre,2,"La saga du soleil noir Tome 5 669","8,90 €","Eric Giacometti, Jacques Ravenne",5,0,1
-Decitre,2,"Le soleil rouge de l’Assam","9,40 €","Mukherjee Abir",4,0,3
-Decitre,2,"Le royaume perdu","9,90 €","Eric Giacometti, Jacques Ravenne",4,0,3
-Decitre,2,"Les crimes de nos pères","10,00 €","Asa Larsson",5,0,3
-Decitre,2,"Le mur des silences","9,90 €","Arnaldur Indridason",4,5,6
-Decitre,2,"Krummavísur","10,40 €","Ian Manook",0,0,0
-Decitre,2,"Dix âmes, pas plus","8,95 €","Ragnar Jónasson",0,0,0
-Decitre,2,"Dix âmes, pas plus","14,99 €","Ragnar Jónasson",0,0,0
-Decitre,2,"La Saga d'Héloïse, l'apothicaire Tome 1 Bayard et le crime d'Amboise","8,95 €","Eric Fouassier",0,0,0
-Decitre,2,"L'horizon d'une nuit","8,99 €","Camilla Grebe",0,0,0
-Decitre,2,"La mâchoire de Caïn","8,20 €","Torquemada",0,0,0
-Decitre,2,"Le grand test","9,70 €","Jacques Expert",0,0,0
-Decitre,2,"Sarek","14,90 €","Ulf Kvensler",0,0,0
-Decitre,2,"Sarek","9,40 €","Ulf Kvensler",0,0,0
-Decitre,2,"Surin d'Apache Tome 1 L'affaire de l'île Barbe. Suivi de Face au crime","10,20 €","Stanislas Petrosky, Amos Frappa",0,0,0
-Decitre,2,"Les Francs Royaumes Tome 1 Par deux fois tu mourras","15,99 €","Eric Fouassier",0,0,0
-Decitre,2,"Elma","8,50 €","Eva Björg Aegisdóttir",0,0,0
-Decitre,2,"Le Chat du bibliothécaire Tome 2 Inventaire fatal","9,70 €","Miranda James",0,0,0
-Decitre,2,"Elma","9,30 €","Eva Björg Aegisdóttir",0,0,0
-Decitre,2,"Poulets grillés","7,50 €","Sophie Hénaff",0,0,0
-Decitre,3,"La petite fille sous la neige","10,00 €","Javier Castillo",5,0,1
-Decitre,3,"Comment j'ai tué ma famille","159,99 €","Bella Mackie",4,0,4
-Decitre,3,"L'été d'avant","9,40 €","Lisa Gardner",5,0,2
-Decitre,3,"Respire","9,70 €","Niko Tackian",3,0,4
-Decitre,3,"La Saga d'Héloïse, l'apothicaire Tome 2 Le Piège de verre","9,90 €","Eric Fouassier",3,0,2
-Decitre,3,"Petiote","8,40 €","Benoît Philippon",5,0,2
-Decitre,3,"La mort frappe aussi les gens heureux","9,70 €","Sophie Hannah",5,0,2
-Decitre,3,"Les masques éphémères","8,90 €","Donna Leon",5,0,2
-Decitre,3,"La maison sans souvenirs","8,90 €","Donato Carrisi",4,0,1
-Decitre,3,"Les dames de Marlow enquêtent Tome 1 Mort compte triple","8,95 €","Robert Thorogood",4,0,124
-Decitre,3,"La Saga d'Héloïse, l'apothicaire Tome 3 Le Disparu de l'Hôtel-Dieu","8,90 €","Eric Fouassier",4,0,124
-Decitre,3,"Les meurtres zen Tome 1 Des meurtres qui font du bien. Un roman policier décéléré","10,99 €","Karsten Dusse",3,5,3
-Decitre,3,"Le Chat du bibliothécaire Tome 3 Théâtre macabre","9,70 €","Miranda James",4,5,2
-Decitre,3,"Les meurtres zen Tome 1 Des meurtres qui font du bien. Un roman policier décéléré","9,20 €","Karsten Dusse",4,5,2
-Decitre,3,"Solak","7,50 €","Caroline Hinault",0,0,0
-Decitre,3,"De la jalousie","13,99 €","Jo Nesbo",0,0,0
-Decitre,3,"De la jalousie","8,20 €","Jo Nesbo",0,0,0
-Decitre,3,"Ca aurait pu être le paradis","9,50 €","Camilla Grebe, Asa Träff",0,0,0
-Decitre,3,"Ça aurait pu être le paradis","9,49 €","Camilla Grebe, Asa Träff",0,0,0
-Decitre,3,"Car un jour de vengeance","9,20 €","Alexandra Julhiet",0,0,0
-Decitre,3,"Une enquête du commissaire Adamsberg Pars vite et reviens tard","8,99 €","Fred Vargas",0,0,0
-Decitre,3,"Pars vite et reviens tard","9,20 €","Fred Vargas",0,0,0
-Decitre,3,"Les Francs Royaumes Tome 2 La fureur de Frédégonde","8,50 €","Eric Fouassier",0,0,0
-Decitre,3,"Les enquêtes d'Hannah Swensen Tome 4 Meurtres et tarte au citron meringuée","8,49 €","Joanne Fluke",0,0,0
-Decitre,3,"Mini-Loup Tome 34 Mini-Loup Policier. Avec 1 figurine","9,70 €","Philippe Matter",0,0,0
-Decitre,3,"Arsène Lupin, gentleman cambrioleur - Texte intégral","6,95 €","Maurice Leblanc",0,0,0
-Decitre,3,"Avec tes yeux","8,95 €","Cédric Sire",0,0,0
-Decitre,3,"Avec tes yeux","5,49 €","Cédric Sire",0,0,0
-Decitre,3,"La saignée","9,90 €","Cédric Sire",0,0,0
-Decitre,3,"La Saignée","9,49 €","Cédric Sire",0,0,0
-Decitre,4,"Le Chat du bibliothécaire Tome 5 Admiration funeste","10,00 €","Miranda James",4,5,2
-Decitre,4,"Reykjavík","159,99 €","Katrín Jakobsdóttir, Ragnar Jónasson",3,5,3
-Decitre,4,"Le meurtre de Harriet Monckton","7,50 €","Elizabeth Haynes",4,0,66
-Decitre,4,"La dame de Reykjavik","15,99 €","Ragnar Jónasson",4,5,5
-Decitre,4,"Policier, fable et article de presse CM. 3 projets d'écriture pas à pas","9,90 €","Juliette Doberva",4,0,73
-Decitre,4,"Huit crimes parfaits. Un roman policier qui joue avec les classiques du genre.Le commentaire qui revient le plus : un régal !","8,70 €","Peter Swanson",5,0,5
-Decitre,4,"Cupidité","5,50 €","Deon Meyer",4,5,17
-Decitre,4,"Cupidité","7,99 €","Deon Meyer",4,5,17
-Decitre,4,"Sa Majesté mène l'enquête Tome 1 Bal tragique à Windsor","10,50 €","S.J. Bennett",4,0,3
-Decitre,4,"D'argent et de sang","9,99 €","Fabrice Arfi",4,0,3
-Decitre,4,"Une enquête du commissaire Adamsberg L'homme aux cercles bleus","7,90 €","Fred Vargas",4,0,43
-Decitre,4,"L'ange de Munich","8,40 €","Fabiano Massimi",4,5,2
-Decitre,4,"L'homme aux cercles bleus","8,00 €","Fred Vargas",4,0,1
-Decitre,4,"La griffe du chien","9,90 €","Don Winslow",4,5,3
-Decitre,4,"Jusqu'à ce que la mort nous unisse","7,99 €","Karine Giebel",0,0,0
-Decitre,4,"Jusqu'à ce que la mort nous unisse","11,40 €","Karine Giebel",0,0,0
-Decitre,4,"Le club des amateurs de romans policiers Tome 1 Ils étaient sept","9,99 €","C.A. Larmer",0,0,0
-Decitre,4,"Le club des amateurs de romans policiers Tome 1 Ils étaient sept","8,60 €","C.A. Larmer",0,0,0
-Decitre,4,"Kasso","8,30 €","Jacky Schwartzmann",0,0,0
-Decitre,4,"Plus amère que la mort","9,99 €","Camilla Grebe, Asa Träff",0,0,0
-Decitre,4,"Le carnet des rancunes","7,90 €","Jacques Expert",0,0,0
-Decitre,4,"Plus amère que la mort","9,40 €","Camilla Grebe, Asa Träff",0,0,0
-Decitre,4,"Le Poète","8,90 €","Michael Connelly",0,0,0
-Decitre,4,"Le Chat du bibliothécaire Tome 4 Sinistre réputation","8,99 €","Miranda James",0,0,0
-Decitre,4,"Le Chat du bibliothécaire Tome 4 Sinistre réputation","10,40 €","Miranda James",0,0,0
-Decitre,4,"La femme de chambre","7,50 €","Nita Prose",0,0,0
-Decitre,4,"L'agent Seventeen","7,49 €","John Brownlow",0,0,0
-Decitre,4,"Avant de sombrer","9,20 €","Cyril Carrère",0,0,0
-Decitre,4,"L'agent Seventeen","10,50 €","John Brownlow",0,0,0
-Decitre,4,"Finlay Donovan est mortelle Tome 1 Comment j'ai tué ton mari","9,50 €","Elle Cosimano",0,0,0
-Decitre,5,"Amour, meurtre et pandémie","10,00 €","Xiaolong Qiu",5,0,2
-Decitre,5,"Tokyo Detective. Enquêtes, crimes et rédemptions au pays du Soleil-Levant","159,99 €","Jake Adelstein",4,5,2
-Decitre,5,"Mauvaise graine. Couronné "meilleur premier roman de l'année 2021" par l'Académie suédoise du roman policier","8,40 €","Sara Strömberg",4,5,2
-Decitre,5,"Okavango","9,90 €","Caryl Férey",5,0,1
-Decitre,5,"Le club des amateurs de romans policiers Tome 3 Meurtre sous les étoiles","14,99 €","C.A. Larmer",4,0,16
-Decitre,5,"Echo Park","9,99 €","Michael Connelly",3,0,1
-Decitre,5,"Le club des amateurs de romans policiers Tome 3 Meurtre sous les étoiles","15,90 €","C.A. Larmer",3,0,1
-Decitre,5,"Wyndham et Banerjee Tome 1 L’attaque du Calcutta-Darjeeling","9,90 €","Abir Mukherjee",4,0,1
-Decitre,5,"Le bonhomme de neige. Une enquête de l'inspecteur Harry Hole","9,99 €","Jo Nesbo",4,0,1
-Decitre,5,"Le bonhomme de neige. Une enquête de l'inspecteur Harry Hole","9,50 €","Jo Nesbo",5,0,1
-Decitre,5,"La trilogie des ombres Tome 3 Le sacre des impies","10,00 €","Ghislain Gilberti",5,0,2
-Decitre,5,"Les dames de Marlow enquêtent Tome 2 Il suffira d'un cygne","9,99 €","Robert Thorogood",5,0,1
-Decitre,5,"Le labyrinthe des femmes","10,20 €","Coline Gatel",3,0,1
-Decitre,5,"Echos des années grises Tome 3 La cour des mirages","10,99 €","Benjamin Dierstein",3,0,1
-Decitre,5,"Deux nuits à Lisbonne","9,70 €","Chris Pavone",3,0,1
-Decitre,5,"Deux nuits à Lisbonne","11,40 €","Chris Pavone",0,0,0
-Decitre,5,"Six Versions Tome 1 Les Orphelins du Mont Scarclaw","10,50 €","Matt Wesolowski",0,0,0
-Decitre,5,"Autopsie","9,99 €","Patricia Cornwell",0,0,0
-Decitre,5,"Fils de personne. Prix du Quai des Orfèvres 2023","8,40 €","Jean-François Pasques",0,0,0
-Decitre,5,"Ce n'est qu'un début, commissaire Soneri","9,40 €","Valerio Varesi",0,0,0
-Decitre,5,"La dernière tempête","6,99 €","Ragnar Jónasson",0,0,0
-Decitre,5,"La maison des voix","9,30 €","Donato Carrisi",0,0,0
-Decitre,5,"L'Innocence et la Loi","8,40 €","Michael Connelly",0,0,0
-Decitre,5,"Le Cas Nelson Kerr","8,90 €","John Grisham",0,0,0
-Decitre,5,"Les policiers","9,70 €","Stéphanie Ledu, Wouzit",0,0,0
-Decitre,5,"Chute libre","8,90 €","T. J. Newman",0,0,0
-Decitre,5,"Les policiers","7,90 €","Stéphanie Ledu",0,0,0
-Decitre,5,"Le Steve McQueen","9,20 €","Tim Willocks, Caryl Férey",0,0,0
-Decitre,5,"Le Steve McQueen","4,99 €","Tim Willocks, Caryl Férey",0,0,0
-Decitre,5,"Avec la permission de Gandhi","12,50 €","Abir Mukherjee",0,0,0
-Chapitre,1,"La vérité sur l'affaire Harry Québert","9,90 €","Dicker, Joel (Auteur)",0,0,0
-Chapitre,1,"L'énigme de la chambre 622","9,90 €","Dicker, Joel (Auteur)",0,0,0
-Chapitre,1,"La disparition de Stephanie Mailer","9,90 €","Dicker, Joel (Auteur)",0,0,0
-Chapitre,1,"Le livre des Baltimore","9,90 €","Dicker, Joel (Auteur)",0,0,0
-Chapitre,1,"Les derniers jours de nos pères","8,90 €","Dicker, Joel (Auteur)",0,0,0
-Chapitre,1,"Dans les brumes de Capelans","Prix non disponible","Norek, Olivier (Auteur)",0,0,0
-Chapitre,1,"Code 93","Prix non disponible","Norek, Olivier (Auteur)",0,0,0
-Chapitre,1,"Mamie Luger","Prix non disponible","Philippon, Benoit (Auteur)",0,0,0
-Chapitre,1,"Entre deux mondes","Prix non disponible","Norek, Olivier (Auteur)",0,0,0
-Chapitre,1,"Le Bureau des affaires occultes Tome 1","Prix non disponible","Fouassier, Eric (Auteur)",0,0,0
-Chapitre,1,"Toutes blessent, la dernière tue","Prix non disponible","Giebel, Karine (Auteur)",0,0,0
-Chapitre,1,"Surface","Prix non disponible","Norek, Olivier (Auteur)",0,0,0
-Chapitre,1,"Territoires","Prix non disponible","Norek, Olivier (Auteur)",0,0,0
-Chapitre,1,"Surtensions","Prix non disponible","Norek, Olivier (Auteur)",0,0,0
-Chapitre,1,"Peter Pan","Prix non disponible","Rousseau, Simon (Auteur)",0,0,0
-Chapitre,1,"Le passager sans visage","Prix non disponible","Beuglet, Nicolas (Auteur)",0,0,0
-Chapitre,1,"Impact","Prix non disponible","Norek, Olivier (Auteur)",0,0,0
-Chapitre,1,"Le nouveau","Prix non disponible","Higashino, Keigo (Auteur)",0,0,0
-Chapitre,1,"J'aurais aimé te tuer","Prix non disponible","Rostagnat, Petronille (Auteur)",0,0,0
-Chapitre,1,"La belle et la bête","Prix non disponible","Rousseau, Simon (Auteur)",0,0,0
-Chapitre,1,"","Prix non disponible","",0,0,0
-Chapitre,2,"Au bonheur des ogres","7,99 €","Pennac, Daniel (Auteur)",0,0,0
-Chapitre,2,"Train d'enfer pour ange rouge","8,99 €","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,2,"La Nuit n'est jamais complète","Prix non disponible","Tackian, Niko (Auteur)",0,0,0
-Chapitre,2,"Pour rien au monde","Prix non disponible","Follett, Ken (Auteur)",0,0,0
-Chapitre,2,"L'île des chasseurs d'oiseaux","Prix non disponible","May, Peter (Auteur)",0,0,0
-Chapitre,2,"Puzzle","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,2,"Purgatoire des innocents","Prix non disponible","Giebel, Karine (Auteur)",0,0,0
-Chapitre,2,"La saga du soleil noir Tome 6 : Le graal du diable","Prix non disponible","Giacometti, Eric ; Ravenne, Jacques (Auteur)",0,0,0
-Chapitre,2,"Nymphéas noirs","Prix non disponible","Bussi, Michel (Auteur)",0,0,0
-Chapitre,2,"Nous rêvions juste de liberté","Prix non disponible","Loevenbruck, Henri (Auteur)",0,0,0
-Chapitre,2,"Blanche-Neige","Prix non disponible","Sicard, Louis-Pier (Auteur)",0,0,0
-Chapitre,2,"Ce que tu as fait de moi","Prix non disponible","Giebel, Karine (Auteur)",0,0,0
-Chapitre,2,"Il était deux fois","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,2,"Le cri","Prix non disponible","Beuglet, Nicolas (Auteur)",0,0,0
-Chapitre,2,"Le dernier message","Prix non disponible","Beuglet, Nicolas (Auteur)",0,0,0
-Chapitre,2,"1991","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,2,"Lucia","Prix non disponible","Minier, Bernard (Auteur)",0,0,0
-Chapitre,2,"La fille du train","Prix non disponible","Hawkins, Paula (Auteur)",0,0,0
-Chapitre,2,"Complot","Prix non disponible","Beuglet, Nicolas (Auteur)",0,0,0
-Chapitre,2,"Le chuchoteur Tome 1","Prix non disponible","Carrisi, Donato (Auteur)",0,0,0
-Chapitre,2,"","Prix non disponible","",0,0,0
-Chapitre,3,"Shibumi","10,99 €","Trevanian (Auteur)",0,0,0
-Chapitre,3,"Rien ne t'efface","Prix non disponible","Bussi, Michel (Auteur)",0,0,0
-Chapitre,3,"Les sept morts d'Evelyn Hardcastle","Prix non disponible","Turton, Stuart (Auteur)",0,0,0
-Chapitre,3,"Par accident","Prix non disponible","Coben, Harlan (Auteur)",0,0,0
-Chapitre,3,"Pandemia","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,3,"L'empathie","Prix non disponible","Renand, Antoine (Auteur)",0,0,0
-Chapitre,3,"Le chat du bibliothécaire Tome 1 : succès mortel","Prix non disponible","James, Miranda (Auteur)",0,0,0
-Chapitre,3,"Glacé","Prix non disponible","Minier, Bernard (Auteur)",0,0,0
-Chapitre,3,"Le cas Malaussène Tome 1 : ils m'ont menti","Prix non disponible","Pennac, Daniel (Auteur)",0,0,0
-Chapitre,3,"Le manuscrit inachevé","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,3,"Raiponce","Prix non disponible","Sicard, Louis-Pier (Auteur)",0,0,0
-Chapitre,3,"L'île du diable","Prix non disponible","Beuglet, Nicolas (Auteur)",0,0,0
-Chapitre,3,"Meurtres pour rédemption","Prix non disponible","Giebel, Karine (Auteur)",0,0,0
-Chapitre,3,"Les 3 p'tits cochons","Prix non disponible","Boivin, Christian (Auteur)",0,0,0
-Chapitre,3,"Le petit chaperon rouge","Prix non disponible","Alain, Sonia (Auteur)",0,0,0
-Chapitre,3,"Alex","Prix non disponible","Lemaitre, Pierre (Auteur)",0,0,0
-Chapitre,3,"La chambre des morts","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,3,"La princesse des glaces","Prix non disponible","Lackberg, Camilla (Auteur)",0,0,0
-Chapitre,3,"Reine rouge","Prix non disponible","Gomez-Jurado, Juan (Auteur)",0,0,0
-Chapitre,3,"Robe de marié","Prix non disponible","Lemaitre, Pierre (Auteur)",0,0,0
-Chapitre,3,"","Prix non disponible","",0,0,0
-Chapitre,4,"Deuils de miel","8,99 €","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,4,"Un avion sans elle","Prix non disponible","Bussi, Michel (Auteur)",0,0,0
-Chapitre,4,"Ne lâche pas ma main","Prix non disponible","Bussi, Michel (Auteur)",0,0,0
-Chapitre,4,"Soeurs","Prix non disponible","Minier, Bernard (Auteur)",0,0,0
-Chapitre,4,"La belle au bois dormant","Prix non disponible","Sicard, Louis-Pier (Auteur)",0,0,0
-Chapitre,4,"Cendrillon","Prix non disponible","Johnson, Sylvain (Auteur)",0,0,0
-Chapitre,4,"L'illusion","Prix non disponible","Chattam, Maxime (Auteur)",0,0,0
-Chapitre,4,"N'éteins pas la lumière","Prix non disponible","Minier, Bernard (Auteur)",0,0,0
-Chapitre,4,"Sharko","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,4,"American predator","Prix non disponible","Callahan, Maureen (Auteur)",0,0,0
-Chapitre,4,"Gagner n'est pas jouer","Prix non disponible","Coben, Harlan (Auteur)",0,0,0
-Chapitre,4,"Une putain d'histoire","Prix non disponible","Minier, Bernard (Auteur)",0,0,0
-Chapitre,4,"Huit crimes parfaits","Prix non disponible","Swanson, Peter (Auteur)",0,0,0
-Chapitre,4,"Bayard et le crime d'Amboise","Prix non disponible","Fouassier, Eric (Auteur)",0,0,0
-Chapitre,4,"Le syndrome [E]","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,4,"Nouvelle Babel","Prix non disponible","Bussi, Michel (Auteur)",0,0,0
-Chapitre,4,"Luca","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,4,"N'oublie pas mon petit soulier","Prix non disponible","Katz, Gabriel (Auteur)",0,0,0
-Chapitre,4,"L'homme de Lewis","Prix non disponible","May, Peter (Auteur)",0,0,0
-Chapitre,4,"Tu me manques","Prix non disponible","Coben, Harlan (Auteur)",0,0,0
-Chapitre,4,"","Prix non disponible","",0,0,0
-Chapitre,5,"La mâchoire de Caïn","Prix non disponible","Powys Mathers, Edward (Auteur)",0,0,0
-Chapitre,5,"La mémoire fantôme","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,5,"Poulets grillés","Prix non disponible","Henaff, Sophie (Auteur)",0,0,0
-Chapitre,5,"Tu tueras le père","Prix non disponible","Dazieri, Sandrone (Auteur)",0,0,0
-Chapitre,5,"Le piège de verre","Prix non disponible","Fouassier, Eric (Auteur)",0,0,0
-Chapitre,5,"Le gardien invisible ; une enquête de l'inspectrice Amaia Salazar","Prix non disponible","Redondo Meira, Dolores (Auteur)",0,0,0
-Chapitre,5,"Le braconnier du lac perdu","Prix non disponible","May, Peter (Auteur)",0,0,0
-Chapitre,5,"Juste une ombre","Prix non disponible","Giebel, Karine (Auteur)",0,0,0
-Chapitre,5,"Les francs royaumes Tome 1 : Par deux fois tu mourras","Prix non disponible","Fouassier, Eric (Auteur)",0,0,0
-Chapitre,5,"La chasse","Prix non disponible","Minier, Bernard (Auteur)",0,0,0
-Chapitre,5,"Ne le dis à personne...","Prix non disponible","Coben, Harlan (Auteur)",0,0,0
-Chapitre,5,"La dame de Reykjavik Tome 1","Prix non disponible","Jonasson, Ragnar (Auteur)",0,0,0
-Chapitre,5,"Gataca","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,5,"L'âme du mal","Prix non disponible","Chattam, Maxime (Auteur)",0,0,0
-Chapitre,5,"Les promises","Prix non disponible","Grange, Jean-Christophe (Auteur)",0,0,0
-Chapitre,5,"L'appel du néant","Prix non disponible","Chattam, Maxime (Auteur)",0,0,0
-Chapitre,5,"Dans son silence","Prix non disponible","Michaelides, Alex (Auteur)",0,0,0
-Chapitre,5,"La reine des neiges","Prix non disponible","Rousseau, Simon (Auteur)",0,0,0
-Chapitre,5,"Le cercle","Prix non disponible","Minier, Bernard (Auteur)",0,0,0
-Chapitre,5,"Atom(ka)","Prix non disponible","Thilliez, Franck (Auteur)",0,0,0
-Chapitre,5,"","Prix non disponible","",0,0,0
-Ammareal,1,"Hunkeler und die goldene Hand: Roman (Allgemeine Reihe. Bastei Lübbe Taschenbücher)","2,80 €","Hansjörg Schneider",0,0,0
-Ammareal,1,"Leichenraub: Thriller","5,14 €","Tess Gerritsen",0,0,0
-Ammareal,1,"Doctor Sleep: Roman","3,89 €","Stephen King",0,0,0
-Ammareal,1,"Wolfsmond: Der Dunkle Turm, 5. Roman","2,80 €","Stephen King",0,0,0
-Ammareal,1,"Susannah","2,80 €","Stephen King",0,0,0
-Ammareal,1,"Atlantis","2,80 €","Stephen King",0,0,0
-Ammareal,1,"Les fleurs de l'Orient","2,79 €","Barbara Wood",0,0,0
-Ammareal,1,"Mission History: Drei Ratekrimis aus der Zeit der Entdecker ab 10 Jahre","2,79 €","Renée Holler et Hauke Kock",0,0,0
-Ammareal,1,"Eaux profondes","2,80 €","Patricia Highsmith",0,0,0
-Ammareal,1,"Un pur espion","2,80 €","John le Carré",0,0,0
-Ammareal,1,"Der Geiger: Roman","2,80 €","Mechtild Borrmann",0,0,0
-Ammareal,1,"Die Nadel","2,80 €","Ken Follett",0,0,0
-Ammareal,1,"Crossing Places, The","2,88 €","Elly Griffiths",0,0,0
-Ammareal,1,"ONE OF US IS LYING: Nominiert für den Deutschen Jugendliteraturpreis 2019. Mit exklusivem Bonusmaterial. (Die ONE OF US IS LYIN","2,89 €","Karen M. McManus",0,0,0
-Ammareal,1,"The Janus Stone: The Dr Ruth Galloway Mysteries 2","5,02 €","Elly Griffiths",0,0,0
-Ammareal,1,"The Murder of Roger Ackroyd (Poirot)","2,97 €","AA. Christie",0,0,0
-Ammareal,1,"Der Dieb von Rom","2,80 €","Harald Parigger",0,0,0
-Ammareal,1,"Weißer Himmel, schwarzes Eis: Ein Fall für Nathan Active (metro)","2,80 €","Stan Jones",0,0,0
-Ammareal,1,"Robinson Crusoe - Vollständige Ausgabe","2,79 €","Daniel Defoe",0,0,0
-Ammareal,1,"Poirot Hercule Poirots Christmas","6,44 €","NA",0,0,0
-Ammareal,1,"Murder on the Orient Express","3,64 €","Agatha CHRISTIE",0,0,0
-Ammareal,1,"Poirot - After the Funeral","5,80 €","AGATHA CHRISTIE",0,0,0
-Ammareal,1,"Peril at End House (Poirot)","3,88 €","Agatha Christie",0,0,0
-Ammareal,1,"La clinique du docteur H","2,80 €","Mary Higgins Clark",0,0,0
-Ammareal,2,"L'Affaire Raphaël","2,80 €","Iain Pears",0,0,0
-Ammareal,2,"LE SABRE DU CALIFE. Une enquête d'Erwin le Saxon","2,80 €","Marc Paillet",0,0,0
-Ammareal,2,"When the Bough Breaks","2,80 €","Jonathan Kellerman",0,0,0
-Ammareal,2,"Toi que j'aimais tant","2,80 €","Mary Higgins Clark",0,0,0
-Ammareal,2,"The Navidad Incident: The Downfall of Matías Guili","5,23 €","Natsuki Ikezawa",0,0,0
-Ammareal,2,"Dors ma jolie","2,80 €","Mary Higgins Clark",0,0,0
-Ammareal,2,"In The Miso Soup","6,38 €","Ryu Murakami et Ralph F. McCarthy",0,0,0
-Ammareal,2,"L. A. requiem","2,80 €","Robert CRAIS et Hubert TEZENAS",0,0,0
-Ammareal,2,"L'homme qui tua Getúlio Vargas","2,80 €","Jô Soares",0,0,0
-Ammareal,2,"La Confrérie de l'épée","5,38 €","Diana GABALDON et Philippe SAFAVI",0,0,0
-Ammareal,2,"Mystères et faits divers : Volume 2","2,80 €","Julien Mignot",0,0,0
-Ammareal,2,"THREE ACT TRAGEDY-POIROT PB","2,80 €","Howard Hughes",0,0,0
-Ammareal,2,"Miss Marple au club du mardi (Nouvelle traduction révisée)","2,79 €","Agatha Christie",0,0,0
-Ammareal,2,"Pour tout l'or de Srinagar","7,30 €","Mark Zellweger",0,0,0
-Ammareal,2,"LES PIANOS MECANIQUES. ROMAN.","28,80 €","HENRI-FRANCOIS REY",0,0,0
-Ammareal,2,"SANS AUCUN REMORDS TOMES 1 ET 2 - COFFRET CARTONNE","52,24 €","TOM CLANCY",0,0,0
-Ammareal,2,"Gros problème","2,80 €","Dave Barry",0,0,0
-Ammareal,2,"Présumé innocent","11,10 € 2,99 €","Scott Turow",0,0,0
-Ammareal,2,"La Terre des morts","2,80 €","Jean-Christophe Grangé",0,0,0
-Ammareal,2,"Jack l'éventreur démasqué. L'enquête définitive","2,80 €","Sophie Herfort",0,0,0
-Ammareal,2,"Cold, Cold Bones: The brand new Temperance Brennan thriller","5,91 €","Kathy Reichs",0,0,0
-Ammareal,2,"Le ventre des lucioles (Thriller)","2,80 €","Andrea H. JAPP",0,0,0
-Ammareal,2,"Soeurs de sang","2,80 €","Dominique Sylvain",0,0,0
-Ammareal,2,"Glacé","2,80 €","Bernard Minier",0,0,0
-Ammareal,3,"La Conjuration primitive","2,80 €","Maxime CHATTAM",0,0,0
-Ammareal,3,"Projection privée","2,80 €","Richard North Patterson",0,0,0
-Ammareal,3,"Maman a tort","2,80 €","Michel Bussi",0,0,0
-Ammareal,3,"Crim' Sur la Prom'","2,80 €","Deloupy Bernard",0,0,0
-Ammareal,3,"The Cartel","2,80 €","Stephen Breen et Owen Conlon",0,0,0
-Ammareal,3,"Les disparus de Shadow Falls","2,80 €","Maggie Shayne",0,0,0
-Ammareal,3,"No Plan B","2,80 €","Lee Child",0,0,0
-Ammareal,3,"La chasse au renne de Sibérie","2,79 €","Julia Latynina",0,0,0
-Ammareal,3,"San-Antonio - Tome 1 (01)","7,12 €","Frédéric Dard",0,0,0
-Ammareal,3,"2e Chance","2,80 €","James Patterson",0,0,0
-Ammareal,3,"L'Étoile polaire","2,80 €","Martin Smith",0,0,0
-Ammareal,3,"VOYAGEUR SANS VISAGE","5,67 €","JOHN KATZENBACH",0,0,0
-Ammareal,3,"Danger mortel","2,80 €","Robin Cook",0,0,0
-Ammareal,3,"The Last Ship: A Novel","2,80 €","William Brinkley",0,0,0
-Ammareal,3,"Mord Auf Dem Golfplatz","2,80 €","Felix & Theo",0,0,0
-Ammareal,3,"The Heart of the Matter: (Penguin Classics Deluxe Edition)","2,80 €","Graham Greene",0,0,0
-Ammareal,3,"Belka, Why Don't You Bark?","6,25 €","Hideo Furukawa",0,0,0
-Ammareal,3,"Mr Brown.","7,18 €","christie agatha",0,0,0
-Ammareal,3,"Sacrilège à Blackfriars","2,80 €","Paul Harding, Anne Bruneau et Christiane Poussier",0,0,0
-Ammareal,3,"La torche ardente","5,36 €","Paul DOHERTY et Christiane POUSSIER",0,0,0
-Ammareal,3,"Dix-sept ans de malheur (17)","2,80 €","Janet EVANOVICH, Axelle DEMOULIN et Nicolas ANCION",0,0,0
-Ammareal,3,"Le silence des agneaux","2,80 €","Thomas HARRIS",0,0,0
-Ammareal,3,"Armadillo","25,70 €","William Boyd",0,0,0
-Ammareal,3,"Martin Eden","2,80 €","Jack London et Andrew Sinclair",0,0,0
-Ammareal,4,"La víspera de casi todo: Premio Nadal 2016","6,10 €","Víctor del Árbol",0,0,0
-Ammareal,4,"Hiver","2,80 €","Mons Kallentoft, Max Stadler et Lucile Clauss",0,0,0
-Ammareal,4,"L'Écorchée","2,80 €","Donato Carrisi",0,0,0
-Ammareal,4,"Automne","2,80 €","Mons Kallentoft",0,0,0
-Ammareal,4,"Plus fort qu'elle","2,80 €","Jacques Expert",0,0,0
-Ammareal,4,"Le Gambit turc","2,80 €","Boris Akounine",0,0,0
-Ammareal,4,"Que ta volonté soit faite","2,80 €","Maxime Chattam",0,0,0
-Ammareal,4,"Le Vent des Errances","4,46 €","Marco Troussier",0,0,0
-Ammareal,4,"Cupido","2,80 €","Jilliane Hoffman",0,0,0
-Ammareal,4,"Wer das Schweigen bricht","2,80 €","Mechtild Borrmann",0,0,0
-Ammareal,4,"Les Enfants du guet","2,80 €","Mary Higgins Clark, Alafair Burke, Anne Damour et Amélie Juste-Thomas",0,0,0
-Ammareal,4,"à découvert - à quelques secondes près - à toute épreuve.","8,27 €","HARLAN COBEN",0,0,0
-Ammareal,4,"Non, Ce Pays n'est pas pour le Vieil Homme","3,69 €","Cormac McCarthy",0,0,0
-Ammareal,4,"Ewig Dein","2,80 €","Daniel Glattauer",0,0,0
-Ammareal,4,"La Légende des Templiers - La Cité perdue (8)","14,63 €","Paul CHRISTOPHER et Pierre SZCZECINER",0,0,0
-Ammareal,4,"Dein ist die Lüge: Der neue Fall für Kate Burkholder. Thriller | Spannender Thriller bei den Amischen","2,80 €","Linda Castillo",0,0,0
-Ammareal,4,"Islanova","2,80 €","Jérôme CAMUT et Nathalie HUG",0,0,0
-Ammareal,4,"Das unerhörte Leben des Alex Woods oder warum das Universum keinen Plan hat: Roman","2,80 €","Gavin Extence",0,0,0
-Ammareal,4,"Sophia oder Der Anfang aller Geschichten","2,80 €","Rafik Schami",0,0,0
-Ammareal,4,"Agency: Sequel to The Peripheral, now a major new TV series with Amazon Prime","2,80 €","William Gibson",0,0,0
-Ammareal,4,"Die Schwester","2,80 €","Joy Fielding et Kristian Lutze",0,0,0
-Ammareal,4,"L'Engrenage","2,80 €","John Grisham",0,0,0
-Ammareal,4,"Le maître du jeu","2,79 €","John Grisham",0,0,0
-Ammareal,4,"Rien ne vaut la douceur du foyer","2,80 €","Mary Higgins Clark",0,0,0
-Ammareal,5,"N'éteins pas la lumière","5,02 €","Bernard Minier",0,0,0
-Ammareal,5,"Le chirurgien","5,19 €","Tess Gerritsen",0,0,0
-Ammareal,5,"Le Coffre aux âmes","2,80 €","David Khayat",0,0,0
-Ammareal,5,"Au supplice du soupçon - Le mystère du vieux chêne","2,80 €","Delores Fossen et Marie Ferrarella",0,0,0
-Ammareal,5,"Entre danger et passion - Un protecteur inattendu","2,80 €","Mallory Kane et Elle James",0,0,0
-Ammareal,5,"Darkhouse","2,80 €","Alex Barclay",0,0,0
-Ammareal,5,"Der Anschlag","2,80 €","Stephen King et Wulf Bergner",0,0,0
-Ammareal,5,"Avant De Te Dire Adieu","2,80 €","Mary Higgins Clark",0,0,0
-Ammareal,5,"Toutes blessent, la dernière tue","9,09 €","Karine Giebel",0,0,0
-Ammareal,5,"Délires mortels","2,80 €","Kathy REICHS et Natalie BEUNAT",0,0,0
-Ammareal,5,"L'Education d'un malfrat","2,80 €","Edward Bunker et Freddy Michalski",0,0,0
-Ammareal,5,"Une funeste croisière","7,03 €","Jessica Fellowes",0,0,0
-Ammareal,5,"Là où les esprits ne dorment jamais","3,85 €","Jonathan Werber",0,0,0
-Ammareal,5,"Derniers sacrements","2,80 €","M.J. ARLIDGE",0,0,0
-Ammareal,5,"Les Enquêtes de Setna (1)","2,80 €","Christian JACQ",0,0,0
-Ammareal,5,"»Herbert von Willensdorf« Die Bestie aus dem All: Kriminalgeschichten von H.E. Miller","5,33 €","H.E. Miller",0,0,0
-Ammareal,5,"Der unverhoffte Zeuge: Lebensweisheiten, Gegenwärtiges, Vergangenes, Erlebnisse … was im Leben so alles passiert","4,38 €","Renate Krohn et Jochen Krohn",0,0,0
-Ammareal,5,"Und dein Leben, dein Leben","4,41 €","Magret Kindermann",0,0,0
-Ammareal,5,"Origine suspecte","2,80 €","Patricia MacDonald",0,0,0
-Ammareal,5,"Rot und Schwarz: Chronik aus dem 19. Jahrhundert","13,97 €","Stendhal",0,0,0
-Ammareal,5,"Darling Lilly","2,80 €","Michael Connelly",0,0,0
-Ammareal,5,"Killmousky: Roman (suhrkamp taschenbuch)","2,80 €","Sibylle Lewitscharoff",0,0,0
-Ammareal,5,"La foire de Saint-Pierre","2,80 €","Ellis PETERS",0,0,0
-Ammareal,5,"Miss Seeton au service de Sa Majesté","2,80 €","Hampton Charles",0,0,0
+Date,Match,Victoire,Défaite,Score Gagnant,Score Perdant,Meilleur Joueur (Points),Points,Meilleur Joueur (Rebonds),Rebonds
+2025-1-1,Denver vs Atlanta,Denver,Atlanta,139,120,T. Young,30,N. Jokić
+2025-1-1,Detroit vs Orlando,Detroit,Orlando,105,96,J. Suggs,24,J. Duren
+2025-1-1,Houston vs Dallas,Houston,Dallas,110,99,A. Şengün,23,K. Irving
+2025-1-1,Miami vs New Orleans,Miami,New Orleans,119,108,T. Murphy,34,B. Adebayo
+2025-1-1,New York vs Utah,New York,Utah,119,103,K. Towns,31,K. Towns
+2025-1-1,Sacramento vs Philadelphia,Sacramento,Philadelphia,113,107,D. Fox,35,D. Sabonis
+2025-1-1,Toronto vs Brooklyn,Toronto,Brooklyn,130,113,S. Barnes,33,S. Barnes
+2025-1-1,Washington vs Chicago,Washington,Chicago,125,107,Z. LaVine,32,N. Vučević
+2025-1-2,Golden State vs Philadelphia,Golden State,Philadelphia,139,105,S. Curry,30,J. Embiid
+2025-1-2,LA Lakers vs Portland,LA Lakers,Portland,114,106,L. James,38,D. Avdija
+2025-1-2,Indiana vs Miami,Indiana,Miami,128,115,T. Haliburton,33,P. Siakam
+2025-1-2,Brooklyn vs Milwaukee,Brooklyn,Milwaukee,113,110,G. Antetokounmpo,27,G. Antetokounmpo
+2025-1-2,Boston vs Minnesota,Boston,Minnesota,118,115,J. Tatum,33,
+2025-1-2,Oklahoma City vs LA Clippers,Oklahoma City,LA Clippers,116,98,S. Gilgeous-Alexander,29,
+2025-1-3,Cleveland vs Dallas,Cleveland,Dallas,134,122,E. Mobley,34,D. Lively
+2025-1-3,San Antonio vs Denver,San Antonio,Denver,113,110,N. Jokić,41,
+2025-1-3,Detroit vs Charlotte,Detroit,Charlotte,98,94,T. Harris,24,J. Duren
+2025-1-3,Boston vs Houston,Boston,Houston,109,86,J. Green,27,L. Kornet
+2025-1-3,LA Lakers vs Atlanta,LA Lakers,Atlanta,119,102,T. Young,33,A. Davis
+2025-1-3,New Orleans vs Washington,New Orleans,Washington,132,120,C. McCollum,50,Y. Missi
+2025-1-3,Oklahoma City vs New York,Oklahoma City,New York,117,107,S. Gilgeous-Alexander,33,K. Towns
+2025-1-3,Sacramento vs Memphis,Sacramento,Memphis,138,133,M. Monk,31,D. Sabonis
+2025-1-3,Orlando vs Toronto,Orlando,Toronto,106,97,,25,G. Bitadze
+2025-1-4,Philadelphia vs Brooklyn,Philadelphia,Brooklyn,123,94,J. Embiid,28,J. Embiid
+2025-1-4,Chicago vs New York,Chicago,New York,139,126,K. Towns,44,
+2025-1-4,Detroit vs Minnesota,Detroit,Minnesota,119,105,A. Edwards,53,T. Harris
+2025-1-4,Golden State vs Memphis,Golden State,Memphis,121,113,A. Wiggins,24,
+2025-1-4,Indiana vs Phoenix,Indiana,Phoenix,126,108,T. Haliburton,27,B. Mathurin
+2025-1-4,LA Clippers vs Atlanta,LA Clippers,Atlanta,131,105,,20,I. Zubac
+2025-1-4,Utah vs Miami,Utah,Miami,136,100,B. Sensabaugh,34,W. Kessler
+2025-1-4,Portland vs Milwaukee,Portland,Milwaukee,105,102,G. Antetokounmpo,31,D. Avdija
+2025-1-4,Denver vs San Antonio,Denver,San Antonio,122,111,N. Jokić,46,V. Wembanyama
+2025-1-5,Cleveland vs Charlotte,Cleveland,Charlotte,115,105,D. Garland,25,J. Allen
+2025-1-5,Sacramento vs Golden State,Sacramento,Golden State,129,99,,26,D. Sabonis
+2025-1-5,Houston vs LA Lakers,Houston,LA Lakers,119,115,J. Green,33,A. Thompson
+2025-1-5,Oklahoma City vs Boston,Oklahoma City,Boston,105,92,S. Gilgeous-Alexander,33,S. Gilgeous-Alexander
+2025-1-5,Utah vs Orlando,Utah,Orlando,105,92,B. Sensabaugh,27,W. Kessler
+2025-1-5,New Orleans vs Washington,New Orleans,Washington,110,98,K. Kuzma,28,A. Sarr
+2025-1-6,Indiana vs Brooklyn,Indiana,Brooklyn,113,99,T. Haliburton,23,D. Sharpe
+2025-1-6,Chicago vs San Antonio,Chicago,San Antonio,114,110,Z. LaVine,35,V. Wembanyama
+2025-1-6,Detroit vs Portland,Detroit,Portland,118,115,A. Simons,36,J. Duren
+2025-1-6,Memphis vs Dallas,Memphis,Dallas,119,104,J. Jackson,35,
+2025-1-6,Minnesota vs LA Clippers,Minnesota,LA Clippers,108,106,A. Edwards,37,R. Gobert
+2025-1-6,Orlando vs New York,Orlando,New York,103,94,,24,J. Hart
+2025-1-6,Phoenix vs Philadelphia,Phoenix,Philadelphia,109,99,T. Maxey,31,K. Oubre
+2025-1-6,Sacramento vs Miami,Sacramento,Miami,123,118,D. DeRozan,30,D. Sabonis
+2025-1-6,Milwaukee vs Toronto,Milwaukee,Toronto,128,104,,25,G. Antetokounmpo
+2025-1-7,Charlotte vs Phoenix,Charlotte,Phoenix,115,104,D. Booker,39,
+2025-1-7,Dallas vs LA Lakers,Dallas,LA Lakers,118,97,Q. Grimes,23,A. Davis
+2025-1-7,Boston vs Denver,Boston,Denver,118,106,J. Tatum,29,K. Porziņģis
+2025-1-7,Miami vs Golden State,Miami,Golden State,114,98,S. Curry,31,D. Green
+2025-1-7,Minnesota vs New Orleans,Minnesota,New Orleans,104,97,A. Edwards,32,R. Gobert
+2025-1-7,Atlanta vs Utah,Atlanta,Utah,124,121,L. Markkanen,35,W. Kessler
+2025-1-7,Houston vs Washington,Houston,Washington,135,112,J. Green,29,A. Thompson
+2025-1-8,Detroit vs Brooklyn,Detroit,Brooklyn,113,98,N. Clowney,29,T. Martin
+2025-1-8,Cleveland vs Oklahoma City,Cleveland,Oklahoma City,129,122,S. Gilgeous-Alexander,31,
+2025-1-8,Denver vs LA Clippers,Denver,LA Clippers,126,103,N. Powell,30,D. Jordan
+2025-1-8,Indiana vs Chicago,Indiana,Chicago,129,113,Z. LaVine,31,T. Bryant
+2025-1-8,Milwaukee vs San Antonio,Milwaukee,San Antonio,121,105,D. Lillard,26,G. Antetokounmpo
+2025-1-8,Portland vs New Orleans,Portland,New Orleans,119,100,D. Avdija,26,D. Ayton
+2025-1-8,New York vs Toronto,New York,Toronto,112,98,,27,K. Towns
+2025-1-8,Philadelphia vs Washington,Philadelphia,Washington,109,103,T. Maxey,29,J. Valančiūnas
+2025-1-9,Cleveland vs Toronto,Cleveland,Toronto,132,126,D. Garland,40,J. Allen
+2025-1-9,Dallas vs Portland,Dallas,Portland,117,111,J. Hardy,25,D. Lively
+2025-1-9,Golden State vs Detroit,Golden State,Detroit,107,104,C. Cunningham,32,J. Duren
+2025-1-9,Houston vs Memphis,Houston,Memphis,119,115,A. Şengün,32,A. Şengün
+2025-1-9,Minnesota vs Orlando,Minnesota,Orlando,104,89,J. Randle,23,R. Gobert
+2025-1-9,Phoenix vs Atlanta,Phoenix,Atlanta,123,115,B. Beal,25,C. Capela
+2025-1-9,Miami vs Utah,Miami,Utah,97,92,,23,W. Kessler
+2025-1-10,Sacramento vs Boston,Sacramento,Boston,114,97,J. Brown,28,D. Sabonis
+2025-1-10,Chicago vs Washington,Chicago,Washington,138,105,Z. LaVine,33,
+2025-1-10,Denver vs Brooklyn,Denver,Brooklyn,124,105,N. Jokić,35,N. Jokić
+2025-1-10,Indiana vs Golden State,Indiana,Golden State,108,96,,25,
+2025-1-10,Oklahoma City vs New York,Oklahoma City,New York,126,101,S. Gilgeous-Alexander,39,J. Hart
+2025-1-10,Milwaukee vs Orlando,Milwaukee,Orlando,109,106,G. Antetokounmpo,41,G. Antetokounmpo
+2025-1-10,New Orleans vs Philadelphia,New Orleans,Philadelphia,123,115,C. McCollum,38,P. George
