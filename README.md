@@ -1,8 +1,3 @@
-# iut_sd2_ScrappingProject
-Voici un exemple de fichier README pour le projet **iut_sd2_ScrappingProject** hébergé sur GitHub :
-
----
-
 # **iut_sd2_ScrappingProject**
 
 ## **Description**
