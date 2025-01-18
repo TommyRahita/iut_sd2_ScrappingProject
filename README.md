@@ -59,8 +59,7 @@ Le projet **iut_sd2_ScrappingProject** consiste à scraper des données de sites
 ```bash
 iut_sd2_ScrappingProject/
 ├── src/                     # Dossier contenant les fichiers source Java
-│   ├── MainClass.java        # Classe principale du projet
-│   └── Scraper.java          # Classe pour gérer le scraping des données
+│   ├── NBAScraper.java        # Classe principale du projet
 ├── lib/                     # Bibliothèque externe (Jsoup)
 ├── data/                    # Dossier pour stocker les fichiers CSV exportés
 ├── README.md                # Ce fichier
@@ -106,9 +105,8 @@ Après l'exécution du programme, un fichier CSV sera généré dans le dossier 
 
 ## **Contributeurs**
 
-- **Développeur Principal :** [Tommy Rahita](https://github.com/TommyRahita)
-- **Contact :** tommy.rahita@exemple.com
-
+- **Développeurs :** [Tommy Rahita](https://github.com/TommyRahita)
+-                 ** [Andrew Desvalcy]
 ---
 
 ## **Licence**
