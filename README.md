@@ -80,12 +80,6 @@ Après l'exécution du programme, un fichier CSV sera généré dans le dossier 
 
 ## **Personnalisation**
 
-- **URL de scraping :**
-  - Vous pouvez modifier l'URL de départ dans le code afin de scraper des données sur différents sites ou sur différentes périodes. Exemple de changement dans le fichier source :
-    ```java
-    String url = "https://www.exemple.com";
-    ```
-
 - **Nombre de pages à scraper :**
   - Modifiez le paramètre `maxPages` dans le code pour définir combien de pages seront analysées.
 
@@ -105,8 +99,7 @@ Après l'exécution du programme, un fichier CSV sera généré dans le dossier 
 
 ## **Contributeurs**
 
-- **Développeurs :** [Tommy Rahita](https://github.com/TommyRahita)
--                 ** [Andrew Desvalcy]
+- **Développeurs :** [Tommy Rahita](https://github.com/TommyRahita) Andrew Desvalcy
 ---
 
 ## **Licence**
