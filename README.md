@@ -1,101 +1,119 @@
 # **iut_sd2_ScrappingProject**
 
 ## **Description**
-Le projet **iut_sd2_ScrappingProject** consiste à scraper des données de sites web afin d'en extraire des informations spécifiques. Ce projet fait partie de la formation en **Système de Développement** de l'IUT. Il illustre l'utilisation de techniques de scraping avec Java et des bibliothèques comme **Jsoup** pour récupérer des données sur des pages web, les traiter et les exporter dans un format structuré (comme un fichier CSV).
+**iut_sd2_ScrappingProject** est un projet de scraping web développé en Java dans le cadre de l'IUT SD2. Ce projet utilise des techniques de scraping pour extraire des données à partir de pages web spécifiques. L'objectif est d'analyser et de traiter ces données pour en extraire des informations utiles.
 
 ---
 
 ## **Fonctionnalités**
-- **Scraping de données :**
-  - Extraction d'informations à partir de pages web spécifiques en utilisant Jsoup.
-  - Analyse de contenu HTML pour récupérer les données pertinentes telles que les scores, les statistiques, et autres informations spécifiques.
+- **Scraping web :**  
+  Ce projet extrait des informations spécifiques depuis des pages web, en utilisant la bibliothèque [Jsoup](https://jsoup.org/). Les données collectées peuvent inclure des détails sur des matchs, des événements ou tout autre élément pertinent en fonction de la configuration du projet.
 
-- **Exportation des résultats :**
-  - Les données extraites sont enregistrées dans un fichier **CSV** pour un traitement et une analyse ultérieurs.
-  
-- **Navigation entre les pages :**
-  - Le projet prend en charge la navigation entre plusieurs pages, suivant les liens "next" pour collecter des données de manière séquentielle.
-
-- **Personnalisation :**
-  - Facilité de modification pour s'adapter à différents sites web ou types de données à extraire.
+- **Enregistrement des données :**  
+  Après avoir collecté les données, le programme les enregistre dans un format structuré (par exemple, CSV) pour faciliter l'analyse et l'utilisation ultérieure.
 
 ---
 
-## **Installation et Prérequis**
+## **Installation et Configuration sur Eclipse IDE**
 
-### **Prérequis :**
-- **Java Development Kit (JDK)** version 8 ou supérieure.
-- **Bibliothèque Jsoup** pour le parsing HTML : [Télécharger Jsoup](https://jsoup.org/download).
-
-### **Installation :**
-1. **Cloner le projet depuis GitHub :**
-   ```bash
-   git clone https://github.com/TommyRahita/iut_sd2_ScrappingProject.git
-   cd iut_sd2_ScrappingProject
-   ```
-
-2. **Ajouter la bibliothèque Jsoup au classpath :**
-   - Téléchargez **Jsoup** depuis le site officiel, puis ajoutez le fichier JAR à votre projet.
-   
-3. **Compiler le programme :**
-   ```bash
-   javac -cp jsoup-<version>.jar src/*.java
-   ```
-
-4. **Exécuter le programme :**
-   ```bash
-   java -cp .:jsoup-<version>.jar src.MainClass
-   ```
-
----
-
-## **Structure du projet**
+### **1. Cloner le projet**
+Pour récupérer le projet sur votre machine, vous devez d'abord le cloner depuis GitHub. Exécutez la commande suivante dans votre terminal ou utilisez l'interface Eclipse pour cloner le projet :
 
 ```bash
+git clone https://github.com/TommyRahita/iut_sd2_ScrappingProject.git
+```
+
+### **2. Ouvrir le projet dans Eclipse**
+1. Lancez **Eclipse IDE**.
+2. Allez dans **File** > **Import**.
+3. Sélectionnez **Git** > **Projects from Git**.
+4. Sélectionnez **Clone URI** et entrez l'URL de votre dépôt GitHub :  
+   `https://github.com/TommyRahita/iut_sd2_ScrappingProject.git`
+5. Après avoir cloné le projet, sélectionnez **Import as existing Eclipse projects** et cliquez sur **Finish**.
+
+### **3. Ajouter les dépendances**
+Le projet utilise la bibliothèque [Jsoup](https://jsoup.org/), une dépendance essentielle pour le scraping des pages web. Voici comment ajouter Jsoup dans votre projet Eclipse :
+
+#### **Via Maven** :
+Si vous utilisez Maven pour gérer les dépendances dans votre projet, ajoutez la dépendance suivante dans votre fichier `pom.xml` :
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>1.14.3</version>
+    </dependency>
+</dependencies>
+```
+
+#### **Via JAR** :
+1. Téléchargez la dernière version de [Jsoup](https://jsoup.org/download).
+2. Dans Eclipse, faites un clic droit sur votre projet > **Build Path** > **Add External Archives**.
+3. Sélectionnez le fichier `.jar` que vous avez téléchargé et ajoutez-le au classpath de votre projet.
+
+### **4. Exécuter le projet**
+1. Après avoir configuré les dépendances, vous pouvez exécuter le projet directement dans Eclipse :
+   - Faites un clic droit sur le fichier contenant la méthode `main` (par exemple, `NBAScraper.java`).
+   - Sélectionnez **Run As** > **Java Application**.
+
+### **5. Vérification**
+Une fois que vous avez exécuté le projet, le scraping commencera et les données collectées seront enregistrées dans un fichier (par exemple, `scraped_data.csv`) dans le répertoire de votre projet.
+
+---
+
+## **Structure du Projet**
+Le projet est structuré de la manière suivante :
+
+```
 iut_sd2_ScrappingProject/
-├── src/                     # Dossier contenant les fichiers source Java
-│   ├── NBAScraper.java        # Classe principale du projet
-├── lib/                     # Bibliothèque externe (Jsoup)
-├── data/                    # Dossier pour stocker les fichiers CSV exportés
-├── README.md                # Ce fichier
-└── pom.xml                  # Fichier de configuration Maven (si applicable)
+│
+├── src/
+│   └── scraping/
+│       └── NBAScraper.java      # Le script principal de scraping
+│
+├── lib/
+│   └── jsoup-1.x.x.jar          # La bibliothèque Jsoup (si vous ne l'utilisez pas avec Maven)
+│
+└── resources/
+    └── scraped_data.csv         # Fichier de sortie des données collectées
 ```
 
 ---
 
-## **Exemple de sortie (CSV)**
-Après l'exécution du programme, un fichier CSV sera généré dans le dossier **data**. Un exemple de ce fichier pourrait ressembler à ceci :
-
-| Date       | Match           | Équipe Gagnante | Équipe Perdante | Score Gagnant | Score Perdant | Meilleur Joueur (Points) | Points | Meilleur Joueur (Rebonds) | Rebonds |
-|------------|-----------------|-----------------|-----------------|---------------|---------------|--------------------------|--------|---------------------------|---------|
-| 2025-01-01 | Lakers vs Nets  | Lakers          | Nets            | 110           | 98            | LeBron James             | 30     | Anthony Davis             | 15      |
-| 2025-01-01 | Bulls vs Celtics| Bulls           | Celtics         | 120           | 115           | Zach LaVine              | 40     | Nikola Vucevic            | 12      |
+## **Dépendances**
+- **Jsoup :** Bibliothèque Java pour le parsing HTML.
+- **Java 8+ :** Le projet nécessite Java 8 ou une version supérieure.
 
 ---
 
-## **Personnalisation**
-
-- **Nombre de pages à scraper :**
-  - Modifiez le paramètre `maxPages` dans le code pour définir combien de pages seront analysées.
-
----
-
-## **Limitations**
-1. **Changement de structure HTML :**  
-   Le programme dépend de la structure actuelle des pages web. Si la structure du site change, le code devra être ajusté pour s'adapter aux nouvelles balises HTML.
-   
-2. **Respect des conditions d'utilisation :**  
-   Veuillez vérifier que vous avez l'autorisation de scraper le site cible et respectez les conditions d'utilisation et les limitations techniques du site.
-
-3. **Blocage potentiel par le site :**  
-   Un trop grand nombre de requêtes en peu de temps peut entraîner un blocage temporaire par le site web cible. Il est conseillé d'ajouter des délais entre les requêtes pour éviter ce problème.
+## **Personnalisation du projet**
+Vous pouvez personnaliser les paramètres du scraping en modifiant les variables dans le fichier Java principal, telles que :
+- L'URL de départ pour le scraping (`initialURL`).
+- Le nombre de pages à scraper (`maxDates`).
 
 ---
 
-## **Contributeurs**
+## **Problèmes connus**
+- Le site web cible peut changer sa structure HTML, ce qui nécessite des ajustements dans le code pour que le scraping fonctionne toujours.
+- Le programme peut rencontrer des limitations d'accès si trop de requêtes sont envoyées en peu de temps. Il est recommandé d'ajouter des délais entre les requêtes si vous scrapez un grand nombre de pages.
 
-- **Développeurs :** [Tommy Rahita](https://github.com/TommyRahita) Andrew Desvalcy
 ---
 
 ## **Licence**
 Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le redistribuer.
+
+---
+
+## **Contributeurs**
+- Développeur : **[Tommy RAHITA Andrew DESVALCY]**
+- Contact : **[votre.email@example.com]**
+
+---
+
+## **Questions et Support**
+Si vous avez des questions ou besoin de support concernant ce projet, n'hésitez pas à ouvrir une *issue* sur le [dépôt GitHub](https://github.com/TommyRahita/iut_sd2_ScrappingProject/issues).
+
+---
+
+Ce fichier README fournit les étapes nécessaires pour configurer et exécuter le projet sur Eclipse IDE. N'oubliez pas de personnaliser les paramètres de scraping et d'ajouter les dépendances pour que tout fonctionne correctement !
