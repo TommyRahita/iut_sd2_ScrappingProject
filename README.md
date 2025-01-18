@@ -106,7 +106,7 @@ Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier e
 ---
 
 ## **Contributeurs**
-- Développeur : **[Tommy RAHITA Andrew DESVALCY]**
+- Développeurs : **[Tommy RAHITA Andrew DESVALCY]**
 ---
 
 ## **Questions et Support**
