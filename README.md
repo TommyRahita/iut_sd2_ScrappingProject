@@ -35,16 +35,53 @@ git clone https://github.com/TommyRahita/iut_sd2_ScrappingProject.git
 Le projet utilise la bibliothèque [Jsoup](https://jsoup.org/), une dépendance essentielle pour le scraping des pages web. Voici comment ajouter Jsoup dans votre projet Eclipse :
 
 #### **Via Maven** :
-Si vous utilisez Maven pour gérer les dépendances dans votre projet, ajoutez la dépendance suivante dans votre fichier `pom.xml` :
+Si vous utilisez Maven pour gérer les dépendances dans votre projet, ajoutez les dépendances suivante dans votre fichier `pom.xml` :
 
 ```xml
-<dependencies>
-    <dependency>
-        <groupId>org.jsoup</groupId>
-        <artifactId>jsoup</artifactId>
-        <version>1.14.3</version>
-    </dependency>
-</dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>CollecteAuto</groupId>
+    <artifactId>WebScrapper_project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Selenium WebDriver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.10.0</version>
+        </dependency>
+
+        <!-- JUnit 5 for testing -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- WebDriver Manager for automatic driver management -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.5.3</version>
+        </dependency>
+
+        <!-- SLF4J Simple Logger for logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+    </dependencies>
+</project>
+
 ```
 
 #### **Via JAR** :
